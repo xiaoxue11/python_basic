@@ -1,4 +1,6 @@
 import update
 import config
-print(config.a)
-print(config.b)
+
+if __name__ == '__main__':
+    print(config.a)
+    print(config.b)

@@ -1,6 +1,6 @@
 class Celsius:
 
-    def __init__(self, temperature = 0):
+    def __init__(self, temperature=0):
         self.temperature = temperature
 
     def to_fahrenheit(self):
@@ -8,10 +8,10 @@ class Celsius:
 
 
 if __name__ == '__main__':
-	man = Celsius()
-	# set temperature
-	man.temperature = 37
-	# get temperature
-	print(man.temperature)
-	# get degrees Fahrenheit
-	print(man.to_fahrenheit())
+    man = Celsius()
+    # set temperature
+    man.temperature = 37
+    # get temperature
+    print(man.temperature)
+    # get degrees Fahrenheit
+    print(man.to_fahrenheit())

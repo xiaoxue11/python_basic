@@ -1,5 +1,5 @@
 class Celsius:
-    def __init__(self, temperature = 0):
+    def __init__(self, temperature=0):
         self.set_temperature(temperature)
 
     def to_fahrenheit(self):
